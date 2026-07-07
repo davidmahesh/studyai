@@ -1,0 +1,29 @@
+# Python Virtual Environment
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Local database file & uploaded files
+backend/storage/db.json
+backend/uploads/*
+!backend/uploads/.gitkeep
+!backend/storage/.gitkeep
+
+# Environment variables & secrets
+backend/.env
+
+# Node.js dependencies & production builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
